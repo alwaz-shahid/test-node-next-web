@@ -1,7 +1,7 @@
 import Head from "next/head";
 import os from "os";
 import { useEffect, useState } from "react";
-import MaxTouchDetect from "../components/maxTouchDetect";
+import MaxTouchDetect from "../components/MaxTouchDetect";
 
 export default function Home() {
   // let cpu = os.cpus();
