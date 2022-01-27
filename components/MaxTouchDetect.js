@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const DeviceDetect = () => {
+const MaxTouchDetect = () => {
   const [deviceType, setDeviceType] = useState("");
 
   useEffect(() => {
@@ -33,4 +33,4 @@ const DeviceDetect = () => {
   return <>I am rendered on: {deviceType}</>;
 };
 
-export default DeviceDetect;
+export default MaxTouchDetect;

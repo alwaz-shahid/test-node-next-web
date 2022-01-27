@@ -1,7 +1,7 @@
 import Head from "next/head";
 import os from "os";
 import { useEffect, useState } from "react";
-import DeviceDetect from "../components/maxTouchDetect";
+import MaxTouchDetect from "../components/maxTouchDetect";
 
 export default function Home() {
   // let cpu = os.cpus();
@@ -26,7 +26,7 @@ export default function Home() {
       <button onClick={() => getInfo(os.userInfo)}>click</button>
       <div>THis is data {JSON.stringify(info)}</div>
       <div>
-        <DeviceDetect />
+        <MaxTouchDetect />
       </div>
     </div>
   );
